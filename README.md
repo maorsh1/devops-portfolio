@@ -1,1 +1,0 @@
-A collection of hands-on DevOps projects demonstrating skills in CI/CD, Docker, Kubernetes, Monitoring, and Cloud automation. Each project includes code, documentation, and deployment instructions Allows you to see my abilities well by maor shimshilashvili
