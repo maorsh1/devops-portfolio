@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/ci-cd-app.git'
+                git branch: 'main', url: 'https://github.com/maorsh1/devops-portfolio.git'
             }
         }
         stage('Build Docker Image') {
