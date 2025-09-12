@@ -12,15 +12,17 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/maorsh1/devops-portfolio.git'
             }
         }
+
         stage('Build Docker Image') {
-    steps {
-        script {
-            dir('ci-cd-app') {
-                bat 'docker build -t "maorsh6/ci-cd-app:latest" .'
+            steps {
+                script {
+                    dir('ci-cd-app') {
+                        bat 'docker build -t "maorsh6/ci-cd-app:latest" .'
+                    }
+                }
             }
         }
-    }
-}
+
         stage('Push to DockerHub') {
             steps {
                 script {
@@ -30,11 +32,16 @@ pipeline {
                 }
             }
         }
+
         stage('Deploy to Minikube') {
-    steps {
-        dir('ci-cd-app') {
-            bat 'set KUBECONFIG=C:\\Users\\97255\\.kube\\config && kubectl apply -f k8s/deployment.yaml'
-            bat 'set KUBECONFIG=C:\\Users\\97255\\.kube\\config && kubectl apply -f k8s/service.yaml'
+            steps {
+                script {
+                    dir('ci-cd-app') {
+                        bat 'set KUBECONFIG=C:\\Users\\97255\\.kube\\config && kubectl apply -f k8s/deployment.yaml'
+                        bat 'set KUBECONFIG=C:\\Users\\97255\\.kube\\config && kubectl apply -f k8s/service.yaml'
+                    }
+                }
+            }
         }
     }
 }
