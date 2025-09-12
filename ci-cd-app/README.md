@@ -100,3 +100,21 @@ The pipeline is fully automated and designed to run on Windows + Jenkins + Minik
 Docker image is lightweight, based on Node.js 18 official image.
 
 Can be extended to include additional stages like unit testing, SonarQube analysis, or deployment to a cloud cluster.
+
+
+## Project Screenshots
+
+Below are some screenshots taken during the final stages of the project:
+
+### Jenkins Pipeline Execution
+![Jenkins Pipeline](./images/20250912_124437.jpg)
+
+### Docker Hub Image Published
+![Docker Hub](./images/20250912_154724.jpg)
+
+### Docker Hub Image Published
+![Kubernetes Deployment](./images/20250912_154705.jpg)
+
+### Running Application (Port 3000)
+![Application Running](./images/20250912_124543.jpg)
+
