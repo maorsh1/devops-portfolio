@@ -13,12 +13,14 @@ pipeline {
             }
         }
         stage('Build Docker Image') {
-            steps {
-                script {
-                    docker.build("${IMAGE_NAME}:latest")
-                }
+    steps {
+        script {
+            dir('ci-cd-app') {
+                bat 'docker build -t "maorsh6/ci-cd-app:latest" .'
             }
         }
+    }
+}
         stage('Push to DockerHub') {
             steps {
                 script {
