@@ -113,7 +113,7 @@ Below are some screenshots taken during the final stages of the project:
 ![Docker Hub](./images/20250912_154724.jpg)
 
 ### Docker Hub Image Published
-![Kubernetes Deployment](./images/20250912_154705.jpg)
+![Docker Hub](./images/20250912_154705.jpg)
 
 ### Running Application (Port 3000)
 ![Application Running](./images/20250912_124543.jpg)
