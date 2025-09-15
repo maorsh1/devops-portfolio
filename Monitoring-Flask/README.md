@@ -36,3 +36,15 @@ the app metricts
 
 Running containers
 
+
+
+🗂️ Project Structure
+├── docker-compose.yml
+├── prometheus.yml
+├── app.py
+├── images/
+│   ├── grafana-dashboard.png
+│   ├── prometheus-targets.png
+│   ├── flask-metrics.png
+│   └── docker-ps.png
+└── README.md
