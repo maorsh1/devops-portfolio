@@ -1,6 +1,6 @@
 # HelloWorldApp - CI/CD Pipeline with GitHub Actions
 
-This project started as a **home assignment** I received during a hiring process for a DevOps Engineer position.  
+This project started as a **home assignment** I received during a hiring process for a DevOps Engineer position in a major company.
 Although I did not get the job, I successfully completed the assignment and decided to include it in my **DevOps portfolio**, as it demonstrates my hands-on skills in CI/CD, containerisation, and automation.
 You can see images from the project in the images folder.
 ---
