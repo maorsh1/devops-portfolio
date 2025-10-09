@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+*.log
+dist/
+.env
+
+# Lambda zip
+lambda/lambda.zip
+
+# Terraform local files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
