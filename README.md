@@ -16,7 +16,7 @@ Here are some of the key projects included in this portfolio:
 | Project | Description |
 |---------|-------------|
 | **[Flask Application Monitoring](./Monitoring-Flask)** | A full monitoring stack for a Python Flask app using Prometheus & Grafana. |
-| **[CI/CD Pipeline for .NET 8 App](./HelloWorldApp-GitHub-Actions-DotNet)** | A complete GitHub Actions workflow, Docker multi-stage build, container hardening & artifact promotion exercise. |
+| **[CI/CD Pipeline for .NET 8 App](./github-actions)** | A complete GitHub Actions workflow, Docker multi-stage build, container hardening & artifact promotion exercise. |
 | **[CI/CD Node.js App with Jenkins & K8s](./ci-cd-app)** | Demonstrates end-to-end automation: code push → Docker build → push to Docker Hub → deploy on Kubernetes (Minikube). |
 | **[AWS Serverless Notes App](./aws-serverless-notes-app)** | A serverless REST API built with AWS Lambda, API Gateway, DynamoDB & Terraform IaC – fully automated infrastructure. |
 
